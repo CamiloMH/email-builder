@@ -1,0 +1,343 @@
+{
+  "common": {
+    "save": "Save",
+    "saving": "Saving…",
+    "saved": "Saved",
+    "unsaved": "Unsaved",
+    "close": "Close",
+    "cancel": "Cancel",
+    "undo": "Undo",
+    "redo": "Redo"
+  },
+  "language": {
+    "label": "Language",
+    "es": "ES",
+    "en": "EN"
+  },
+  "footer": {
+    "madeBy": "Email Builder · Built with react-email by Camilo Muñoz.",
+    "social": "Social",
+    "github": "GitHub (opens in a new tab)",
+    "linkedin": "LinkedIn (opens in a new tab)"
+  },
+  "landing": {
+    "navFeatures": "Features",
+    "navHow": "How it works",
+    "goToEditor": "Go to the editor",
+    "heroTitle": "Design emails people love,",
+    "heroTitleAccent": "without writing code",
+    "heroSubtitle": "A visual block builder with live preview. Create, customize and export your email templates in minutes.",
+    "startFree": "Start for free",
+    "seeFeatures": "See features",
+    "featuresHeading": "Everything you need",
+    "howHeading": "How it works",
+    "howSubtitle": "From zero to your email in four steps: build it block by block and see it in real time, with no rigid templates and no code.",
+    "step": "Step {{n}}",
+    "tryEditor": "Try the editor",
+    "ctaHeading": "Ready to create your first email?",
+    "ctaSubtitle": "No account needed. Get started right now.",
+    "ctaButton": "Create my first email",
+    "documentTitle": "Email Builder · Design emails by blocks, no code",
+    "features": [
+      {
+        "title": "Block builder",
+        "description": "Add and reorder header, text, image, button, columns and more with drag and drop."
+      },
+      {
+        "title": "Live preview",
+        "description": "What you see is exactly the email that gets sent, on desktop and mobile."
+      },
+      {
+        "title": "Export to HTML and text",
+        "description": "Download your template ready for your favorite email provider."
+      },
+      {
+        "title": "No sign-up",
+        "description": "Start instantly; each visitor sees only their own templates."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Add and order blocks",
+        "description": "Drag header, text, image, button, columns, cards and more onto the canvas, and reorder them as you like."
+      },
+      {
+        "title": "Customize the theme",
+        "description": "Set colors, typography and spacing once; they apply consistently across the whole email."
+      },
+      {
+        "title": "Preview live",
+        "description": "See the real result on desktop and mobile while you edit, with no surprises when sending."
+      },
+      {
+        "title": "Export and send",
+        "description": "Download HTML, plain text or a React component ready for your email provider."
+      }
+    ]
+  },
+  "dashboard": {
+    "documentTitle": "My templates · Email Builder",
+    "heading": "My templates",
+    "subtitle": "Design and export emails by blocks.",
+    "newTemplate": "New template",
+    "loading": "Loading templates…",
+    "blocksCount": "{{count}} blocks",
+    "empty": "You have no templates yet.",
+    "createFirst": "Create the first one",
+    "untitled": "Untitled template",
+    "deleteTemplate": "Delete template",
+    "deleted": "Template deleted."
+  },
+  "examples": {
+    "heading": "Start from an example",
+    "subtitle": "Professional templates by industry. Make a copy and customize it.",
+    "useTemplate": "Use template",
+    "preview": "Preview",
+    "useThisTemplate": "Use this template",
+    "previewTitle": "Preview · {{name}}",
+    "previewAria": "Example preview",
+    "previewError": "Couldn't generate the preview.",
+    "sectors": {
+      "ecommerce": "E-commerce",
+      "saas": "SaaS",
+      "newsletter": "Newsletter",
+      "restaurant": "Restaurant",
+      "health": "Health",
+      "event": "Events"
+    },
+    "items": {
+      "ecommerce-oferta": {
+        "name": "E-commerce sale",
+        "description": "Discount campaign with a featured product and a call to action."
+      },
+      "saas-bienvenida": {
+        "name": "SaaS welcome",
+        "description": "Welcome onboarding with first steps and access to the dashboard."
+      },
+      "newsletter-medios": {
+        "name": "Editorial newsletter",
+        "description": "Weekly digest with top headlines and links to articles."
+      },
+      "restaurante-carta": {
+        "name": "Restaurant booking",
+        "description": "New seasonal menu with a dish photo and table booking."
+      },
+      "salud-cita": {
+        "name": "Appointment reminder",
+        "description": "Medical appointment reminder with details and confirmation."
+      },
+      "evento-invitacion": {
+        "name": "Event invitation",
+        "description": "Invitation with date, venue and RSVP confirmation."
+      }
+    }
+  },
+  "errors": {
+    "unknown": "Something went wrong. Please try again.",
+    "network": "Can't reach the server. Check your connection.",
+    "validationFailed": "Some fields are invalid. Please review the form.",
+    "notFound": "The resource was not found.",
+    "templateNotFound": "Template not found (it may have been deleted).",
+    "rateLimited": "Too many requests. Wait a moment and try again.",
+    "mailNotConfigured": "Email delivery is not configured.",
+    "mailSendFailed": "Couldn't send the email. Check the sender or verify your domain with the provider."
+  },
+  "favorite": {
+    "add": "Add to favorites",
+    "remove": "Remove from favorites"
+  },
+  "editor": {
+    "back": "Back to home",
+    "templateName": "Template name",
+    "switchTemplate": "Switch template",
+    "template": "Template",
+    "desktopView": "Desktop view",
+    "mobileView": "Mobile view",
+    "export": "Export",
+    "check": "Check",
+    "exportHtml": "HTML",
+    "exportText": "Plain text",
+    "exportReact": "React component",
+    "exportHbs": "Handlebars (.hbs)",
+    "exportEml": "Email (.eml)",
+    "exportJson": "JSON",
+    "sendTest": "Send test",
+    "tabBlocks": "Blocks",
+    "tabTheme": "Theme",
+    "collapsePalette": "Collapse blocks panel",
+    "expandPalette": "Expand blocks panel",
+    "collapseInspector": "Collapse inspector",
+    "expandInspector": "Expand inspector",
+    "loading": "Loading template…",
+    "notFound": "We couldn't find this template. It may have been deleted.",
+    "defaultTitle": "Editor",
+    "panelsAria": "Panels",
+    "panels": {
+      "blocks": "Blocks",
+      "canvas": "Canvas",
+      "preview": "Preview",
+      "inspector": "Inspector"
+    }
+  },
+  "theme": {
+    "colors": "Colors",
+    "typography": "Typography",
+    "layout": "Layout",
+    "color": {
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "background": "Background",
+      "surface": "Surface",
+      "text": "Text",
+      "muted": "Muted"
+    },
+    "contentWidth": "Content width: {{value}}px",
+    "spacing": "Spacing: {{value}}px",
+    "borderRadius": "Roundness: {{value}}px",
+    "changeColor": "Change {{label}} color",
+    "hex": "{{label}} hex",
+    "lowContrast": "Low contrast ({{ratio}}:1)",
+    "brandKits": "Brand kits",
+    "saveBrandKit": "Save current theme",
+    "brandKitName": "Brand kit name",
+    "applyBrandKit": "Apply {{name}}",
+    "deleteBrandKit": "Delete {{name}}",
+    "noBrandKits": "You haven't saved any brand kits yet.",
+    "darkMode": "Email dark mode",
+    "darkModeHint": "Applies on clients with dark mode (prefers-color-scheme).",
+    "darkBackground": "Dark background",
+    "darkSurface": "Dark surface",
+    "darkText": "Dark text"
+  },
+  "palette": {
+    "loading": "Loading blocks…",
+    "error": "Couldn't load the blocks."
+  },
+  "blocks": {
+    "header": { "label": "Header", "description": "Logo, title and subtitle at the top of the email." },
+    "text": { "label": "Text", "description": "A paragraph of text." },
+    "image": { "label": "Image", "description": "A responsive image, optionally linking somewhere." },
+    "button": { "label": "Button", "description": "A call-to-action button." },
+    "card": { "label": "Card", "description": "A bordered card with a title, text and an optional button." },
+    "divider": { "label": "Divider", "description": "A horizontal rule that separates sections." },
+    "spacer": { "label": "Spacer", "description": "Vertical whitespace between blocks." },
+    "columns": { "label": "Columns", "description": "Two or three side-by-side text columns." },
+    "social": { "label": "Social", "description": "A row of links to your social networks." },
+    "footer": { "label": "Footer", "description": "Company information and an unsubscribe link." }
+  },
+  "canvas": {
+    "reorder": "Reorder block",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "remove": "Delete block"
+  },
+  "inspector": {
+    "heading": "Block",
+    "selectPrompt": "Select a block to edit its properties.",
+    "noOptions": "This block has no options.",
+    "imageError": "Couldn't load the image. Check the URL.",
+    "title": "Title",
+    "subtitle": "Subtitle",
+    "logoUrl": "Logo URL",
+    "align": "Alignment",
+    "logoAlign": "Logo alignment",
+    "logoInline": "Logo inline with the title",
+    "text": "Text",
+    "fontSize": "Font size: {{value}}px",
+    "imageUrl": "Image URL",
+    "alt": "Alt text",
+    "linkOptional": "Link (optional)",
+    "width": "Width: {{value}}%",
+    "buttonText": "Button text",
+    "link": "Link",
+    "style": "Style",
+    "variantFilled": "Filled",
+    "variantOutline": "Outline",
+    "fullWidth": "Full width",
+    "cardImageUrl": "Image URL (optional)",
+    "cardButtonText": "Button text (optional)",
+    "cardButtonHref": "Button link (optional)",
+    "background": "Background",
+    "height": "Height: {{value}}px",
+    "company": "Company",
+    "address": "Address",
+    "unsubscribeUrl": "Unsubscribe URL",
+    "legalText": "Legal text",
+    "columnLabel": "Column {{n}}",
+    "removeColumn": "Remove column {{n}}",
+    "columnHeading": "Heading",
+    "addColumn": "Add column",
+    "linkLabel": "Link {{n}}",
+    "removeLink": "Remove link {{n}}",
+    "network": "Network",
+    "url": "URL",
+    "addLink": "Add link"
+  },
+  "variables": {
+    "tab": "Variables",
+    "heading": "Variables",
+    "hint": "Insert {{token}} in your text; the preview replaces it with the sample value.",
+    "add": "Add variable",
+    "empty": "No variables yet.",
+    "key": "Key",
+    "label": "Label",
+    "sample": "Sample value",
+    "remove": "Remove variable",
+    "duplicateKey": "That key already exists."
+  },
+  "preflight": {
+    "title": "Template check",
+    "score": "Score: {{score}}/100",
+    "noIssues": "No issues found. All good!",
+    "exportAnyway": "Export anyway",
+    "back": "Back to editing",
+    "goToBlock": "→ Go to {{block}} block #{{position}}",
+    "issues": {
+      "imageMissingAlt": "An image has no alternative text (alt).",
+      "noUnsubscribeLink": "The footer is missing an unsubscribe link.",
+      "tooManyLinks": "Too many links; some filters penalize this.",
+      "spamWords": "The text contains common spam words.",
+      "shoutingText": "There is ALL-CAPS text or too many exclamation marks.",
+      "thinTextContent": "There is very little text compared to the visual content.",
+      "undefinedVariables": "You use variables that are not defined."
+    }
+  },
+  "send": {
+    "title": "Send test email",
+    "to": "Recipient email",
+    "submit": "Send",
+    "sending": "Sending…",
+    "success": "Test email sent.",
+    "error": "Couldn't send the test email."
+  },
+  "tour": {
+    "help": "Help / Tour",
+    "next": "Next",
+    "prev": "Back",
+    "done": "Done",
+    "dashboard": {
+      "newTitle": "Create a template",
+      "newDesc": "Start from scratch with a fresh template ready to edit.",
+      "examplesTitle": "Start from an example",
+      "examplesDesc": "Pick an industry example, make a copy and tweak it to your needs.",
+      "languageTitle": "Switch language",
+      "languageDesc": "Switch between Spanish and English anytime."
+    },
+    "editor": {
+      "paletteTitle": "Add blocks",
+      "paletteDesc": "Drag or click to add blocks. Theme and Variables live here too.",
+      "canvasTitle": "Your canvas",
+      "canvasDesc": "Reorder and select blocks to edit them in the inspector on the right.",
+      "previewTitle": "Live preview",
+      "previewDesc": "See the real email on desktop or mobile while you edit.",
+      "historyTitle": "Undo / Redo",
+      "historyDesc": "Revert changes with these buttons or Ctrl/Cmd+Z.",
+      "exportTitle": "Export",
+      "exportDesc": "Download the email as HTML, text or a React component (with a pre-check).",
+      "sendTitle": "Send a test",
+      "sendDesc": "Email it to yourself to see it in your inbox.",
+      "saveTitle": "Save",
+      "saveDesc": "Your changes autosave, but you can also save manually here."
+    }
+  }
+}

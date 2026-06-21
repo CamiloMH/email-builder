@@ -1,0 +1,17 @@
+{
+  "name": "Email Builder",
+  "short_name": "Email Builder",
+  "description": "Constructor visual de email templates por bloques con vista previa en vivo.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

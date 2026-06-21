@@ -1,0 +1,343 @@
+{
+  "common": {
+    "save": "Guardar",
+    "saving": "Guardando…",
+    "saved": "Guardado",
+    "unsaved": "Sin guardar",
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "undo": "Deshacer",
+    "redo": "Rehacer"
+  },
+  "language": {
+    "label": "Idioma",
+    "es": "ES",
+    "en": "EN"
+  },
+  "footer": {
+    "madeBy": "Email Builder · Hecho con react-email por Camilo Muñoz.",
+    "social": "Redes",
+    "github": "GitHub (se abre en una pestaña nueva)",
+    "linkedin": "LinkedIn (se abre en una pestaña nueva)"
+  },
+  "landing": {
+    "navFeatures": "Características",
+    "navHow": "Cómo funciona",
+    "goToEditor": "Ir al editor",
+    "heroTitle": "Diseña emails que enamoran,",
+    "heroTitleAccent": "sin escribir código",
+    "heroSubtitle": "Un constructor visual por bloques con vista previa en vivo. Crea, personaliza y exporta tus plantillas de correo en minutos.",
+    "startFree": "Empezar gratis",
+    "seeFeatures": "Ver características",
+    "featuresHeading": "Todo lo que necesitas",
+    "howHeading": "Cómo funciona",
+    "howSubtitle": "De cero a tu email en cuatro pasos: montas el correo bloque a bloque y lo ves en tiempo real, sin plantillas rígidas ni código.",
+    "step": "Paso {{n}}",
+    "tryEditor": "Probar el editor",
+    "ctaHeading": "¿List@ para crear tu primer email?",
+    "ctaSubtitle": "No necesitas cuenta. Empieza ahora mismo.",
+    "ctaButton": "Crear mi primer email",
+    "documentTitle": "Email Builder · Diseña emails por bloques, sin código",
+    "features": [
+      {
+        "title": "Constructor por bloques",
+        "description": "Añade y reordena header, texto, imagen, botón, columnas y más con arrastrar y soltar."
+      },
+      {
+        "title": "Vista previa en vivo",
+        "description": "Lo que ves es exactamente el email que se envía, en escritorio y móvil."
+      },
+      {
+        "title": "Exporta a HTML y texto",
+        "description": "Descarga tu plantilla lista para tu proveedor de correo favorito."
+      },
+      {
+        "title": "Sin registro",
+        "description": "Empieza al instante; cada visitante ve solo sus propias plantillas."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Añade y ordena bloques",
+        "description": "Arrastra header, texto, imagen, botón, columnas, tarjetas y más al lienzo, y reordénalos a tu gusto."
+      },
+      {
+        "title": "Personaliza el tema",
+        "description": "Define colores, tipografía y espaciado una vez; se aplican a todo el correo de forma consistente."
+      },
+      {
+        "title": "Previsualiza en vivo",
+        "description": "Mira el resultado real en escritorio y móvil mientras editas, sin sorpresas al enviar."
+      },
+      {
+        "title": "Exporta y envía",
+        "description": "Descarga HTML, texto plano o un componente React listo para tu proveedor de correo."
+      }
+    ]
+  },
+  "dashboard": {
+    "documentTitle": "Mis plantillas · Email Builder",
+    "heading": "Mis plantillas",
+    "subtitle": "Diseña y exporta emails por bloques.",
+    "newTemplate": "Nueva plantilla",
+    "loading": "Cargando plantillas…",
+    "blocksCount": "{{count}} bloques",
+    "empty": "Aún no tienes plantillas.",
+    "createFirst": "Crear la primera",
+    "untitled": "Plantilla sin título",
+    "deleteTemplate": "Eliminar plantilla",
+    "deleted": "Plantilla eliminada."
+  },
+  "examples": {
+    "heading": "Empieza con un ejemplo",
+    "subtitle": "Plantillas profesionales por sector. Genera una copia y personalízala.",
+    "useTemplate": "Usar plantilla",
+    "preview": "Vista previa",
+    "useThisTemplate": "Usar esta plantilla",
+    "previewTitle": "Vista previa · {{name}}",
+    "previewAria": "Vista previa del ejemplo",
+    "previewError": "No se pudo generar la vista previa.",
+    "sectors": {
+      "ecommerce": "E-commerce",
+      "saas": "SaaS",
+      "newsletter": "Newsletter",
+      "restaurant": "Restaurante",
+      "health": "Salud",
+      "event": "Eventos"
+    },
+    "items": {
+      "ecommerce-oferta": {
+        "name": "Oferta de e-commerce",
+        "description": "Campaña de descuentos con producto destacado y llamada a la acción."
+      },
+      "saas-bienvenida": {
+        "name": "Bienvenida SaaS",
+        "description": "Onboarding de bienvenida con primeros pasos y acceso al panel."
+      },
+      "newsletter-medios": {
+        "name": "Newsletter editorial",
+        "description": "Boletín semanal con titulares destacados y enlaces a artículos."
+      },
+      "restaurante-carta": {
+        "name": "Reserva de restaurante",
+        "description": "Nueva carta de temporada con foto de plato y reserva de mesa."
+      },
+      "salud-cita": {
+        "name": "Recordatorio de cita",
+        "description": "Recordatorio de cita médica con detalles y confirmación."
+      },
+      "evento-invitacion": {
+        "name": "Invitación a evento",
+        "description": "Invitación con fecha, lugar y confirmación de asistencia."
+      }
+    }
+  },
+  "errors": {
+    "unknown": "Ocurrió un error inesperado. Inténtalo de nuevo.",
+    "network": "Sin conexión con el servidor. Revisa tu red.",
+    "validationFailed": "Hay datos inválidos. Revisa el formulario.",
+    "notFound": "No se encontró el recurso.",
+    "templateNotFound": "No se encontró la plantilla (puede que se haya eliminado).",
+    "rateLimited": "Demasiadas solicitudes. Espera un momento e inténtalo de nuevo.",
+    "mailNotConfigured": "El envío de correo no está configurado.",
+    "mailSendFailed": "No se pudo enviar el correo. Revisa el remitente o verifica tu dominio en el proveedor."
+  },
+  "favorite": {
+    "add": "Marcar como favorito",
+    "remove": "Quitar de favoritos"
+  },
+  "editor": {
+    "back": "Volver al inicio",
+    "templateName": "Nombre de la plantilla",
+    "switchTemplate": "Cambiar de plantilla",
+    "template": "Plantilla",
+    "desktopView": "Vista escritorio",
+    "mobileView": "Vista móvil",
+    "export": "Exportar",
+    "check": "Revisar",
+    "exportHtml": "HTML",
+    "exportText": "Texto plano",
+    "exportReact": "Componente React",
+    "exportHbs": "Handlebars (.hbs)",
+    "exportEml": "Email (.eml)",
+    "exportJson": "JSON",
+    "sendTest": "Enviar prueba",
+    "tabBlocks": "Bloques",
+    "tabTheme": "Tema",
+    "collapsePalette": "Colapsar panel de bloques",
+    "expandPalette": "Expandir panel de bloques",
+    "collapseInspector": "Colapsar inspector",
+    "expandInspector": "Expandir inspector",
+    "loading": "Cargando plantilla…",
+    "notFound": "No encontramos esta plantilla. Puede que se haya eliminado.",
+    "defaultTitle": "Editor",
+    "panelsAria": "Paneles",
+    "panels": {
+      "blocks": "Bloques",
+      "canvas": "Lienzo",
+      "preview": "Vista previa",
+      "inspector": "Inspector"
+    }
+  },
+  "theme": {
+    "colors": "Colores",
+    "typography": "Tipografía",
+    "layout": "Layout",
+    "color": {
+      "primary": "Primario",
+      "secondary": "Secundario",
+      "background": "Fondo",
+      "surface": "Superficie",
+      "text": "Texto",
+      "muted": "Apagado"
+    },
+    "contentWidth": "Ancho de contenido: {{value}}px",
+    "spacing": "Espaciado: {{value}}px",
+    "borderRadius": "Redondez: {{value}}px",
+    "changeColor": "Cambiar color {{label}}",
+    "hex": "Hex {{label}}",
+    "lowContrast": "Contraste bajo ({{ratio}}:1)",
+    "brandKits": "Brand kits",
+    "saveBrandKit": "Guardar tema actual",
+    "brandKitName": "Nombre del brand kit",
+    "applyBrandKit": "Aplicar {{name}}",
+    "deleteBrandKit": "Eliminar {{name}}",
+    "noBrandKits": "Aún no has guardado brand kits.",
+    "darkMode": "Modo oscuro del email",
+    "darkModeHint": "Se aplica en clientes con modo oscuro (prefers-color-scheme).",
+    "darkBackground": "Fondo oscuro",
+    "darkSurface": "Superficie oscura",
+    "darkText": "Texto oscuro"
+  },
+  "palette": {
+    "loading": "Cargando bloques…",
+    "error": "No se pudieron cargar los bloques."
+  },
+  "blocks": {
+    "header": { "label": "Encabezado", "description": "Logo, título y subtítulo al inicio del email." },
+    "text": { "label": "Texto", "description": "Un párrafo de texto." },
+    "image": { "label": "Imagen", "description": "Una imagen responsiva, opcionalmente enlazada." },
+    "button": { "label": "Botón", "description": "Un botón de llamada a la acción." },
+    "card": { "label": "Tarjeta", "description": "Una tarjeta con borde, título, texto y botón opcional." },
+    "divider": { "label": "Separador", "description": "Una línea horizontal que separa secciones." },
+    "spacer": { "label": "Espacio", "description": "Espacio vertical entre bloques." },
+    "columns": { "label": "Columnas", "description": "Dos o tres columnas de texto en paralelo." },
+    "social": { "label": "Redes sociales", "description": "Una fila de enlaces a tus redes sociales." },
+    "footer": { "label": "Pie de página", "description": "Información de la empresa y enlace de baja." }
+  },
+  "canvas": {
+    "reorder": "Reordenar bloque",
+    "moveUp": "Mover arriba",
+    "moveDown": "Mover abajo",
+    "remove": "Eliminar bloque"
+  },
+  "inspector": {
+    "heading": "Bloque",
+    "selectPrompt": "Selecciona un bloque para editar sus propiedades.",
+    "noOptions": "Este bloque no tiene opciones.",
+    "imageError": "No se pudo cargar la imagen. Revisa la URL.",
+    "title": "Título",
+    "subtitle": "Subtítulo",
+    "logoUrl": "URL del logo",
+    "align": "Alineación",
+    "logoAlign": "Alineación del logo",
+    "logoInline": "Logo en línea con el título",
+    "text": "Texto",
+    "fontSize": "Tamaño de fuente: {{value}}px",
+    "imageUrl": "URL de la imagen",
+    "alt": "Texto alternativo",
+    "linkOptional": "Enlace (opcional)",
+    "width": "Ancho: {{value}}%",
+    "buttonText": "Texto del botón",
+    "link": "Enlace",
+    "style": "Estilo",
+    "variantFilled": "Relleno",
+    "variantOutline": "Borde",
+    "fullWidth": "Ancho completo",
+    "cardImageUrl": "URL de imagen (opcional)",
+    "cardButtonText": "Texto del botón (opcional)",
+    "cardButtonHref": "Enlace del botón (opcional)",
+    "background": "Fondo",
+    "height": "Altura: {{value}}px",
+    "company": "Empresa",
+    "address": "Dirección",
+    "unsubscribeUrl": "URL de baja",
+    "legalText": "Texto legal",
+    "columnLabel": "Columna {{n}}",
+    "removeColumn": "Eliminar columna {{n}}",
+    "columnHeading": "Encabezado",
+    "addColumn": "Añadir columna",
+    "linkLabel": "Enlace {{n}}",
+    "removeLink": "Eliminar enlace {{n}}",
+    "network": "Red",
+    "url": "URL",
+    "addLink": "Añadir enlace"
+  },
+  "variables": {
+    "tab": "Variables",
+    "heading": "Variables",
+    "hint": "Inserta {{token}} en los textos; en la vista previa se reemplazan por el valor de ejemplo.",
+    "add": "Añadir variable",
+    "empty": "Aún no hay variables.",
+    "key": "Clave",
+    "label": "Etiqueta",
+    "sample": "Valor de ejemplo",
+    "remove": "Eliminar variable",
+    "duplicateKey": "Esa clave ya existe."
+  },
+  "preflight": {
+    "title": "Revisión de la plantilla",
+    "score": "Puntuación: {{score}}/100",
+    "noIssues": "Sin problemas detectados. ¡Todo en orden!",
+    "exportAnyway": "Exportar igual",
+    "back": "Volver a editar",
+    "goToBlock": "→ Ir al bloque {{block}} #{{position}}",
+    "issues": {
+      "imageMissingAlt": "Hay una imagen sin texto alternativo (alt).",
+      "noUnsubscribeLink": "Falta un enlace para darse de baja en el pie.",
+      "tooManyLinks": "Demasiados enlaces; algunos filtros lo penalizan.",
+      "spamWords": "El texto contiene palabras típicas de spam.",
+      "shoutingText": "Hay texto en MAYÚSCULAS o con muchos signos de exclamación.",
+      "thinTextContent": "Hay muy poco texto frente al contenido visual.",
+      "undefinedVariables": "Usas variables que no están definidas."
+    }
+  },
+  "send": {
+    "title": "Enviar email de prueba",
+    "to": "Correo de destino",
+    "submit": "Enviar",
+    "sending": "Enviando…",
+    "success": "Email de prueba enviado.",
+    "error": "No se pudo enviar el email de prueba."
+  },
+  "tour": {
+    "help": "Ayuda / Tour",
+    "next": "Siguiente",
+    "prev": "Anterior",
+    "done": "Listo",
+    "dashboard": {
+      "newTitle": "Crea una plantilla",
+      "newDesc": "Empieza desde cero con una plantilla nueva lista para editar.",
+      "examplesTitle": "Parte de un ejemplo",
+      "examplesDesc": "Elige un ejemplo por industria, genera una copia y modifícala a tu gusto.",
+      "languageTitle": "Cambia el idioma",
+      "languageDesc": "Cambia entre español e inglés cuando quieras."
+    },
+    "editor": {
+      "paletteTitle": "Añade bloques",
+      "paletteDesc": "Arrastra o haz clic para añadir bloques. Aquí también están el Tema y las Variables.",
+      "canvasTitle": "Tu lienzo",
+      "canvasDesc": "Reordena y selecciona bloques para editarlos en el inspector de la derecha.",
+      "previewTitle": "Vista previa en vivo",
+      "previewDesc": "Mira el email real en escritorio o móvil mientras editas.",
+      "historyTitle": "Deshacer / Rehacer",
+      "historyDesc": "Revierte cambios con estos botones o con Ctrl/Cmd+Z.",
+      "exportTitle": "Exporta",
+      "exportDesc": "Descarga el email como HTML, texto o componente React (con una revisión previa).",
+      "sendTitle": "Envía una prueba",
+      "sendDesc": "Envíate el email a tu correo para verlo en tu bandeja.",
+      "saveTitle": "Guarda",
+      "saveDesc": "Tus cambios se guardan solos, pero también puedes guardar manualmente aquí."
+    }
+  }
+}

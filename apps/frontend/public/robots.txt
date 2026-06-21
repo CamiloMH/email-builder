@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+# Per-visitor app areas are not useful to index.
+Disallow: /app
+Disallow: /editor/
+
+Sitemap: https://email-builder.example.com/sitemap.xml

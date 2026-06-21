@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Email Builder">
+  <rect width="32" height="32" rx="8" fill="#2563EB" />
+  <rect x="6.5" y="9" width="19" height="14" rx="2.5" fill="#ffffff" />
+  <path d="M7.5 11 16 16.5 24.5 11" stroke="#2563EB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <rect x="20" y="18.5" width="6" height="6" rx="2" fill="#7C3AED" />
+</svg>
