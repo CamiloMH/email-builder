@@ -1,0 +1,14 @@
+**/node_modules
+**/dist
+**/.next
+**/.turbo
+**/coverage
+.git
+**/*.log
+**/.env
+**/.env.*
+!**/.env.example
+agents.md
+AGENTS.md
+.claude
+design.md
