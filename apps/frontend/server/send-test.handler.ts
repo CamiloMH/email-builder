@@ -2,8 +2,9 @@ import { Resend } from 'resend';
 
 /**
  * Framework-agnostic logic for the test-send endpoint, shared by the Vercel
- * serverless function (`send-test.ts`) and the Vite dev middleware, so local
- * `pnpm dev` and production behave identically.
+ * serverless function (`api/send-test.ts`) and the Vite dev middleware, so local
+ * `pnpm dev` and production behave identically. Lives outside `api/` so Vercel
+ * does not turn this helper into a serverless function.
  */
 
 // In-memory per-IP rate limiter. State lives per process, so it throttles bursts
