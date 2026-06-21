@@ -7,10 +7,9 @@ y este proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
 Los releases se publican empujando un tag de git `vX.Y.Z`, que dispara el
 pipeline de CI/CD.
 
-## [Sin publicar]
+## [1.0.0] - 2026-06-21
 
-Primer desarrollo del constructor de plantillas de email. Aún no se ha publicado
-ninguna versión; al cortar el primer release esta sección será sus notas.
+Primera versión pública del constructor de plantillas de email.
 
 ### Añadido
 
@@ -42,4 +41,4 @@ ninguna versión; al cortar el primer release esta sección será sus notas.
 - Backend NestJS (persistencia en servidor, multiusuario y API documentada con
   Scalar) incluido en el repositorio pero aún no desplegado.
 
-[Sin publicar]: https://github.com/CamiloMH/email-templates/compare/HEAD
+[1.0.0]: https://github.com/CamiloMH/email-templates/releases/tag/v1.0.0
