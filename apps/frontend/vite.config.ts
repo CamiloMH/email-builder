@@ -32,7 +32,7 @@ function sendTestDevPlugin(env: Record<string, string>): Plugin {
           } catch {
             payload = {};
           }
-          const mod = (await server.ssrLoadModule('/server/send-test.handler.ts')) as {
+          const mod = (await server.ssrLoadModule('/api/send-test.ts')) as {
             sendTestEmail: (
               payload: unknown,
               ip: string,

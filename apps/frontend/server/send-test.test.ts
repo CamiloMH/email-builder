@@ -5,7 +5,9 @@ vi.mock('resend', () => ({
   Resend: vi.fn(() => ({ emails: { send: sendMock } })),
 }));
 
-import { sendTestEmail } from './send-test.handler';
+// Imports the shared logic from the Vercel function (kept outside api/ so Vercel
+// does not turn this test into a serverless function).
+import { sendTestEmail } from '../api/send-test';
 
 const validPayload = { to: 'a@b.com', subject: 'S', html: '<p>x</p>', text: 'x' };
 
